@@ -1,8 +1,8 @@
-# Project 4- Mean stack
+## Project 4- Mean stack
 
 I am going to implement a simple Book Register web form using MEAN stack.
 
-## step 1 :Install nodejs
+**step 1 :Install nodejs**
 
 First and foremost i do an upgarade of my server using these codes : 
 `sudo apt update`
@@ -22,7 +22,7 @@ then install nodejs
 
 `sudo apt install -y nodejs`
 
-## Step 2: Install MongoDB
+**Step 2: Install MongoDB**
 
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
@@ -65,7 +65,7 @@ app.listen(app.get('port'), function() {
 });
 
 ```
-## install expressjs plus setup route to the sever
+**install expressjs plus setup route to the server**
 
 For schema-based solution to model my application data application data i will install mongoose
 
@@ -141,7 +141,7 @@ module.exports = mongoose.model('Book', bookSchema);
 
 ```
 
-## Step 4 – Access the routes with AngularJS
+**Step 4 – Access the routes with AngularJS**
 
 
  Go back to the Books directory and the creat a directory Public   
@@ -252,11 +252,12 @@ Also in the public folder, create a file named index.html and the add a content 
 Go back to the Books directory and and then start the server
 ` node server.js`
 
-The server is now up and running as seen in the imag below
+The server is now up and running as seen in the image below
+
+![security group](./Images/security.PNG)
 
 
-
-![server is running!](startserver.PNG)
+![server is running!](./Images/startserver.PNG)
 
 
  we can connect it via port 3300. 
@@ -270,11 +271,11 @@ change the security inbound setting in your server to accommodate connection on 
 
 i encountered an error at first it shown the image below ,i trouble shooted i discovered i didnot copy some files correctly, which i corrected and it started working 
 
-![error message](prj4-err.PNG)
+![error message](./Images/prj4-err.PNG)
 
 we can see the book app using 18.212.18.86:3300 on the browser 
 
-![the full functional book recording app](proj4app.PNG)
+![the full functional book recording app](./Images/proj4app.PNG)
 
 
 
